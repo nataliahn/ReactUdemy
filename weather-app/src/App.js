@@ -12,5 +12,11 @@ class App extends Component {
   }
 }
 
-
 export default App;
+
+const array = ["uno", "dos", "tres"];
+
+const [uno,, tres] = array;
+
+console.log(uno);
+console.log(tres);
