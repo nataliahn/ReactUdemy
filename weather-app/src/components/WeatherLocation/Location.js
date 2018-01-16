@@ -10,7 +10,7 @@ const Location = ({ city }) => ( //destructuring
 );
 
 Location.propTypes = {
-    Location: PropTypes.string.isRequired,
+    city: PropTypes.string.isRequired,
 };
 
 export default Location;
